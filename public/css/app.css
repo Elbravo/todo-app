@@ -1,0 +1,54 @@
+/* Custom CSS for ToDo App */
+
+/* Center the content in the container */
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+/* Styles for the ToDo items */
+.todo-item {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 15px;
+    padding: 15px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.todo-item .form-check {
+    margin-right: 15px;
+}
+
+.todo-item .form-check input[type="checkbox"] {
+    display: inline-block;
+    width: auto;
+    height: auto;
+    margin-right: 5px;
+}
+
+.todo-item.completed {
+    background-color: #e6ffe6;
+}
+
+/* Styles for the group items */
+.group-item {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 15px;
+    padding: 15px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.group-item .group-name {
+    font-weight: bold;
+    margin-right: 15px;
+}
+
+.group-item .edit-btn,
+.group-item .delete-btn {
+    margin-left: 10px;
+}
